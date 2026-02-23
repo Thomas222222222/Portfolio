@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { portfolioData } from "./data/portfolio";
+import portfolioData from "@/app/data/home.json";
 
 export const metadata: Metadata = {
   title: `${portfolioData.name} - Portfolio`,

@@ -1,0 +1,43 @@
+{
+  "name": "Thomas Roche--Rebelle",
+  "role": "Ingénieur en Informatique",
+  "bio": "De ma curiosité pour l'informatique est née une véritable expertise. Au fil des années, j'ai forgé mes compétences pour me spécialiser dans la conception, l'automatisation (DevOps) et la protection (Cybersécurité) des systèmes d'information.",
+  "about": [
+    "Actuellement étudiant en 3ème année au sein du Programme Grande École d'Epitech Lyon, j'ai forgé mon profil technique grâce à une pédagogie exigeante basée sur la réalisation de projets. Cette approche m'a permis d'acquérir une forte autonomie et de me perfectionner dans l'ingénierie logicielle et l'infrastructure.",
+    "Ma première année a été marquée par l'apprentissage intensif du langage C, une étape clé pour appréhender la complexité du développement bas niveau. J'ai ensuite pu explorer de nouveaux domaines tels que le DevOps et la Cybersécurité, ce qui m'a donné un excellent aperçu de mes futures spécialisations.",
+    "Ma deuxième année a été consacrée à mon perfectionnement en C et à l'apprentissage des concepts de la programmation orientée objet (OOP) via le C++. En parallèle, j'ai renforcé mes compétences DevOps à travers des cas pratiques, en manipulant des outils d'automatisation et de configuration tels qu'Ansible et Jenkins.",
+    "Enfin, ma troisième année m'a permis de concrétiser ces apprentissages à travers des projets d'envergure. J'ai notamment participé au développement de R-Type, un jeu vidéo en réseau nécessitant la mise en place d'une architecture ECS et une gestion complexe des perturbations réseau. En parallèle, j'ai conçu une application web et mobile en mode SaaS, et j'ai poussé mes compétences DevOps avec le projet Whanos, axé sur l'automatisation des déploiements d'applications sur Kubernetes."
+  ],
+  "projects": [
+    {
+      "title": "Projet Alpha",
+      "description": "Une application web moderne construite avec Next.js et TailwindCSS.",
+      "techStack": ["React", "Next.js", "TailwindCSS"],
+      "link": "#",
+      "github": "#"
+    },
+    {
+      "title": "Projet Beta",
+      "description": "Plateforme e-commerce optimisée pour la performance et le SEO.",
+      "techStack": ["Node.js", "Express", "MongoDB"],
+      "link": "#",
+      "github": "#"
+    },
+    {
+      "title": "Projet Gamma",
+      "description": "Dashboard analytique interactif pour visualiser des données complexes.",
+      "techStack": ["Vue.js", "D3.js", "Firebase"],
+      "link": "#",
+      "github": "#"
+    }
+  ],
+  "contact": {
+    "title": "Travaillons ensemble",
+    "description": "Je suis toujours ouvert à de nouvelles opportunités et collaborations. N'hésitez pas à me contacter !"
+  },
+  "socials": {
+    "github": "https://github.com/Thomas222222222",
+    "linkedin": "https://www.linkedin.com/in/thomas-roche-rebelle-7917b42b2",
+    "email": "mailto:thomas.rocherebelle@gmail.com"
+  }
+}
