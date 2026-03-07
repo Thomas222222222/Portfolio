@@ -1,0 +1,14 @@
+{
+    "id": "r-type",
+    "title": "R-Type",
+    "description": "Création d'un moteur de jeu sur mesure en C++ et développement d'un clone multijoueur en réseau du célèbre shoot'em up R-Type.",
+    "content": "Ce projet avancé en C++ avait pour but de nous initier au développement de jeux vidéo en réseau en créant notre propre moteur de jeu. L'architecture repose sur un modèle Client-Serveur : un serveur multithreadé qui fait autorité sur toute la logique de jeu, et un client graphique dédié à l'affichage et aux inputs. Au cœur du moteur, l'architecture Entity-Component-System (ECS) était fortement recommandée pour découpler les systèmes. Le défi technique majeur résidait dans la communication réseau : nous avons dû concevoir un protocole binaire sur mesure utilisant UDP pour gérer la synchronisation en temps réel des entités. Le projet exigeait également de fonctionner de manière multiplateforme (Windows et Linux), avec un système de build basé sur CMake et un gestionnaire de paquets.",
+    "techStack": [
+        "C++",
+        "Raylib",
+        "Asio",
+        "Conan",
+        "CMake"
+    ],
+    "github": "https://github.com/Thomas222222222/R-Type"
+}

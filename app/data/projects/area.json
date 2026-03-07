@@ -1,0 +1,15 @@
+{
+    "id": "area",
+    "title": "AREA",
+    "description": "Création d'une plateforme logicielle d'automatisation similaire à IFTTT ou Zapier, comprenant un serveur, un client web et un client mobile.",
+    "content": "Ce projet Epitech nous a placés dans le rôle d'une équipe d'architectes logiciels. Le but était de concevoir une plateforme d'automatisation de type IFTTT ou Zapier, en se concentrant sur l'intégration d'API existantes. L'architecture s'articule autour de trois entités : un serveur d'application gérant la logique métier via une API REST, ainsi qu'un client web et un client mobile (Android ou Windows Mobile) servant d'interfaces. Le système permet aux utilisateurs de s'authentifier (système classique ou OAuth2), de connecter des services tiers (Google, Outlook, OneDrive, etc.), et de créer des 'AREA'. Ces configurations lient des 'Actions' (déclencheurs) à des 'REActions' (tâches automatisées), activées dynamiquement par des hooks. L'ensemble du projet a été conteneurisé et orchestré via Docker Compose.",
+    "techStack": [
+        "Node.js",
+        "Express",
+        "TypeScript",
+        "JavaScript",
+        "TailwindCSS",
+        "Kotlin"
+    ],
+    "github": "https://github.com/Thomas222222222/AREA"
+}

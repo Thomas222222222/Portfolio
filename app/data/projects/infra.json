@@ -1,0 +1,12 @@
+{
+    "id": "infra",
+    "title": "Infrastructure",
+    "description": "Conception et déploiement d'une infrastructure d'hébergement personnelle (HomeLab) complète et sécurisée.",
+    "content": "Création d'une infrastructure sur mesure m'ayant permis de consolider mes compétences en administration système et réseau. Ce projet couvre la virtualisation, la conteneurisation d'applications, ainsi que la sécurisation des flux (pare-feu / reverse proxy) et la mise en place d'une stack de monitoring. Au-delà du défi technique, cette infrastructure auto-hébergée me rend service au quotidien en hébergeant mes propres outils de productivité (Outline, Grafana, Authelia, Actual Budget, etc.).",
+    "techStack": [
+        "Proxmox",
+        "Docker",
+        "OPNsense",
+        "Grafana"
+    ]
+}

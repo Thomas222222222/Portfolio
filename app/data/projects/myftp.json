@@ -1,0 +1,10 @@
+{
+    "id": "myftp",
+    "title": "MyFTP",
+    "description": "Développement en C d'un serveur File Transfer Protocol (FTP) gérant les connexions simultanées via des sockets TCP.",
+    "content": "Ce projet réseau consistait à développer un serveur FTP complet en C. Les communications réseau reposent sur l'utilisation de sockets TCP, et l'implémentation doit strictement respecter la norme RFC959. Le défi architectural majeur était la gestion simultanée de plusieurs clients : le serveur utilise la fonction 'poll' pour gérer les commandes entrantes et 'fork' pour les transferts de données, l'utilisation de threads étant formellement interdite. Le serveur intègre une authentification supportant le compte 'Anonymous' avec un mot de passe vide et prend en charge les transferts de données en modes actif et passif.",
+    "techStack": [
+        "C"
+    ],
+    "github": "https://github.com/Thomas222222222/myFTP"
+}

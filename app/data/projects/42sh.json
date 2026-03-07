@@ -1,0 +1,13 @@
+{
+    "id": "42sh",
+    "title": "42sh",
+    "description": "Conception et développement en équipe d'un interpréteur de commandes Unix complet basé sur le shell TCSH.",
+    "content": "Projet de l'école Epitech réalisé en groupe de 4 à 5 personnes, visant à programmer un shell UNIX de zéro en langage C. L'enjeu principal était de garantir une stabilité absolue du programme, primant sur la quantité d'options. Le développement s'est fait en utilisant uniquement la libC et la bibliothèque ncurses. Ce défi technique nous a amenés à implémenter des fonctionnalités avancées : édition de ligne avec auto-complétion, gestion de l'historique et des alias, globbings (*, ?, [, ]), ainsi que le job control (&, fg, bg).",
+    "techStack": [
+        "C",
+        "ncurses",
+        "Makefile",
+        "Git"
+    ],
+    "github": "https://github.com/Thomas222222222/42sh"
+}

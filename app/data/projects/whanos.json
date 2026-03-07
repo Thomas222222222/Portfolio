@@ -1,0 +1,14 @@
+{
+    "id": "whanos",
+    "title": "Whanos",
+    "description": "Création d'une infrastructure DevOps automatisée permettant le déploiement continu d'applications vers un cluster Kubernetes.",
+    "content": "Ce projet avait pour but de concevoir une plateforme d'intégration et de déploiement continu (CI/CD) appelée Whanos, permettant le déploiement automatisé dans un cluster suite à un push sur un dépôt Git. L'infrastructure détecte automatiquement le langage d'un projet parmi C, Java, JavaScript, Python ou Befunge. Elle conteneurise ensuite l'application en créant une image Docker, la pousse sur une registry, et la déploie sur un cluster Kubernetes si un fichier de configuration whanos.yml est présent. L'automatisation globale de ces tâches est gérée par des jobs Jenkins. Le déploiement de l'infrastructure elle-même devait être scripté et automatisé en ligne, de préférence avec Ansible. Ce projet combine de manière concrète la conteneurisation (Docker), l'automatisation (Jenkins), la gestion de configuration (Ansible) et l'orchestration (Kubernetes).",
+    "techStack": [
+        "Docker",
+        "Jenkins",
+        "Kubernetes",
+        "Ansible",
+        "CI/CD"
+    ],
+    "github": "https://github.com/Thomas222222222/Whanos"
+}
